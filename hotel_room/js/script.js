@@ -80,3 +80,7 @@
                 puzzleResultMsg.innerHTML = "Inspect the painting first!";
               }
             };
+            //References
+          //Beach, T. (2021, September 15). a blue suitcase sitting on the floor next to a bed [Photograph]. Unsplash. https://unsplash.com/photos/a-blue-suitcase-sitting-on-the-floor-next-to-a-bed-QStz1IM5eSg.
+          //Jordan, B. (2020, July 5). the new york times square [Photograph]. Unsplash. https://unsplash.com/photos/the-new-york-times-square-oO7txJP2hls. 
+          //visualsofdana. (2021, January 28). A hotel bedroom with a wooden bed, teal pillows and a private garden view [Photograph]. Unsplash. https://unsplash.com/photos/hotel-bedroom-with-wooden-bed-T5pL6ciEn-I.

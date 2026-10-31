@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+              #hotel-body {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #34170D;
+                background-color: #faf6f0;
+                text-align: center;
+                margin: 0;
+                padding: 20px;
+              }
+
+              #hotel-body {
+                max-width: 90%;
+                margin: 20px  auto;
+                font-size: 18px;
+              }
+
+              #hotel-title {
+                border: 5px solid;
+                border-color:#34170D;
+                padding: 16px; 
+                background-color:#A58B73;
+                color: #faf6f0;
+                display: fixed;
+                margin: 8px auto 8px auto;
+              }
+
+              #suitcase-img {
+                width: 100%;
+                text-align: center;
+                display: block;
+                margin: auto; 
+                height: auto;
+                border: 5px solid #34170D;
+                border-radius: 8px;
+              }
+              
+              #hotel-container {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                margin: 25px auto; 
+              }
+              
+              #hotel-img {
+                width: 100%;
+                display: block;
+                height: auto;
+                border-radius: 20px;
+                border: 5px solid #34170D;
+              }
+
+              #hotel-clue-btn {
+                position: absolute;
+                top: 25%;
+                left:75%;
+                background-color: #A58B73;
+                color: #faf6f0;
+                font-weight:  bold;
+                border: 5px solid #34170D;
+                padding: 8px 16px;
+                border-radius: 8px;
+                cursor: pointer;
+              }
+
+              #hotel-clue-text {
+                font-weight: bold;
+                color: #34170D;
+                margin: 8px;
+              }
+
+              #lock-puzzle-box {
+                background-color: #faf6f0; 
+                border: 5px solid #34170D;
+                border-radius: 8px;
+                padding: 20px;
+                margin: 30px auto;
+
+              }
+
+              #digit1-btn, #digit2-btn, #digit3-btn {
+                font-size: 20px; 
+                width: 48px;
+                height: 48px;
+                padding: 0;
+                background-color: #faf6f0;
+                color: #34170D;
+                cursor: pointer;
+                border: 3px solid #34170D;
+                border-radius: 8px;
+
+              }
+
+              
+              #submit-lock-btn {
+              background-color: #A58B73;
+              color: #faf6f0;
+              font-weight: bold;
+              padding: 8px 16px;
+              border: 5px solid #34170D;
+              border-radius: 8px;
+              cursor: pointer;
+              }
+
+
+              #puzzle-result-msg {
+                font-weight: bold;
+                font-style: italic;
+                color: #34170D;
+              }
+
+              #souvenir-counter-box1 {
+                position: fixed; 
+                top: 16px; 
+                right: 16px; 
+                border: 3px solid #34170D;
+                padding: 8px 16px;
+                border-radius: 8px;
+                font-weight: bold;
+                color: #34170D;
+                background-color: #faf6f0;
+              }
+
+
+            </style>
+
+        </head>
+
+        <body id="hotel-body">
+            <h1 id="hotel-title">Hotel Room</h1>
+
+            <p>We made it to the hotel room! Look, a suitcase! Maybe we can find a code somewhere in the room to open it...</p>
+
+           <!--Beach, T. (2021, September 15). a blue suitcase sitting on the floor next to a bed [Photograph]. Unsplash. https://unsplash.com/photos/a-blue-suitcase-sitting-on-the-floor-next-to-a-bed-QStz1IM5eSg-->
+            <img id="suitcase-img" src="Images/taylor-beach.jpg" alt="Locked Suitcase">
+            
+            
+            <div id="lock-puzzle-box">
+                <h3>Suitcase Combination Lock</h3>
+                <p>Find the code in the room below then click each button to change the numbers and insert the code!</p>
+                
+                <button type="button" id="digit1-btn">0</button>
+                <button type="button" id="digit2-btn">0</button>
+                <button type="button" id="digit3-btn">0</button>
+
+                <br><br>
+                <button type="button" id="submit-lock-btn">Unlock Suitcase</button>
+
+                <p id="puzzle-result-msg"></p>
+            </div>
+
+            <div id="hotel-container">
+                <!--visualsofdana. (2021, January 28). A hotel bedroom with a wooden bed, teal pillows and a private garden view [Photograph]. Unsplash. https://unsplash.com/photos/hotel-bedroom-with-wooden-bed-T5pL6ciEn-I-->
+                <img id="hotel-img" src="Images/visualsofdana.jpg" alt="Hotel Room 304">
+                <button type="button" id="hotel-clue-btn">Inspect Painting</button>
+              </div>
+
+              <p id="hotel-clue-text"></p>
+
+            <div id="souvenir-counter-box1">
+              Souvenirs Collected: <span id="counter-display">0</span>/4
+            </div>
+
+          <button type="button" class="NextLevelButton">Next Level</button>
+        
+          
+
+          <script src="js/script.js"></script>
+        </body>
+    </html>

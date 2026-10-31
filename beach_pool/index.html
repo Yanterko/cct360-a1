@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beach and Pool Area</title>
+
+        <style>
+            #pool-body {
+                text-align: center; 
+                padding: 20px; 
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #34170D;
+                background-color: #faf6f0;
+                margin: 0;
+                padding: 1em;
+            }
+
+            #gate-img {
+                width: 100%; 
+                max-width: 40%;
+                height: auto; 
+                border-radius: 8px;
+                border: 5px solid #34170D;
+                display: block; 
+                margin: 1em auto; 
+            }
+
+
+            #open-gate-btn, #pool-give-up-btn {
+                background-color: #A58B73;
+                color: #34170D;
+                border: 5px  solid #34170D; 
+                padding: 8px 16px;
+                border-radius: 8px;
+                margin-top: 24px; 
+                cursor: pointer;
+            }
+
+            #pool-give-up-btn {
+                margin-top: 24px; 
+            }
+
+            #pool-status, #pool-give-up-btn {
+                color: #34170D;
+            }
+
+            #beach-title {
+                border: 5px solid;
+                border-color:#34170D;
+                padding: 16px; 
+                background-color:#A58B73;
+                color: #faf6f0;
+                display: inline-block;
+                margin: 8px auto 8px auto;
+            }
+
+            #souvenir-counter-box2 {
+                position: fixed; 
+                top: 16px; 
+                right: 16px; 
+                border: 3px solid #34170D;
+                padding: 8px 16px;
+                border-radius: 8px;
+                font-weight: bold;
+                color: #34170D;
+                background-color: #faf6f0;
+              }
+
+        </style>
+    </head>
+
+    <body id="pool-body">
+        <h1 id="beach-title">Beach Pool</h1>
+        
+        <div id="pool-stage">
+                 <!--Harmon, B. (2024, March 12). a small white dog standing infront of a gate [Photograph]. Unsplash. https://unsplash.com/photos/a-small-white-dog-standing-in-front-of-a-gate-oVBu7FAxX-o.-->
+            <img id="gate-img" src="Images/blaire-harmon-oVBu7FAxX-o-unsplash.jpg" alt="Closed Pool Gate">
+            
+            <p id="pool-status">Hmm, I think the gate is closed. But I need to get in to find the pool souvenir! I wonder if we can find a way to open it.</p>
+
+        <button type="button" id="open-gate-btn">Click to open the gate.</button>
+        </div>
+
+        <br>
+
+        <button type="button" id="pool-give-up-btn">Give up?</button>
+        <p id="pool-give-up-msg"></p>
+
+        <div id="souvenir-counter-box2">
+            Souvenirs Collected: <span id="counter-display">0</span>/4
+        </div>
+
+        <button type="button" class="NextLevelButton">Next Level</button>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

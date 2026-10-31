@@ -24,13 +24,13 @@
                     let clickX = event.offsetX;
                     let clickY = event.offsetY;
 
-                    if (clickX >= 150 && clickX <=250 && clickY >= 150 && clickY <= 250) {
+                    if (clickX >= 150 && clickX <=350 && clickY >= 50 && clickY <= 350) {
                         souvenirFound = true;
                         gateOpen = false;
 
                         poolStatus.innerHTML = "Success! You found the pool souvenir!";
 
-                        gateImg.src = "Images/rajvirkaurnsplash/jpg";
+                        gateImg.src = "Images/rajvirkaurnsplash.jpg";
 
                         counterDisplay.innerHTML = "4";
 

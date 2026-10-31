@@ -1,0 +1,85 @@
+body{
+    background-image: url("restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+/*Image Area*/
+#birdSouvenir{
+    width: 40px;
+    position:absolute;
+    bottom: 9%;
+    left: 38%;
+}
+
+/*Counter*/
+.scoreCounter{
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: "Roboto", sans-serif;
+    color:aliceblue;
+    font-size: 1.5em;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*Instructions Area*/
+
+.parent{
+     display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 70vh;   
+}
+
+h1, p{
+    font-family: "Roboto", sans-serif;
+    color:aliceblue;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+.instruction_div{
+    background-color:rgba(164, 213, 176, 0.8);
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+}
+
+.instruction-text {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*"Next Level" Button Area*/
+
+.NextLevel_Div{
+     display: flex;
+    justify-content: flex-end;
+}
+
+.NextLevelButton{
+    background-color: rgb(87, 87, 87);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 40px;
+    font-size: 1em;
+    color:aliceblue;
+    font-family: "Roboto", sans-serif;
+}
+
+.NextLevelButton:hover{
+    background-color: rgb(87, 87, 87);
+}

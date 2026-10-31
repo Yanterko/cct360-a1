@@ -13,30 +13,42 @@ html, body {
 }
 
 .card {
+  margin: 7vh;
+  margin-top: 20vh;
   background: #E6BD99;
   padding: 32px;
-  border-radius: 16px;
-  backdrop-filter: blur(16px); 
+  border-radius: 8px;
+  backdrop-filter: blur(16px);
   color: #3D3022;
-  position: absolute;
   box-shadow: 0 0.3vh 0.5vh black;
 }
 
 .content {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  height: 50vh;
+}
+
+/*Counter*/
+.scoreCounter{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 180px;
+    float: right;
+    color:aliceblue;
+    font-size: 1.5em;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .lobby-section {
+    display: flex;
+    flex-direction: column;
     background-image: url("../assets/img/Lobby.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    min-height: 23.6vh;
     background-position: 0px;
 }

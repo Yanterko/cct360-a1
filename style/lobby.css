@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: "Google Sans", sans-serif;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+  background: #E6BD99;
+  padding: 32px;
+  border-radius: 16px;
+  backdrop-filter: blur(16px); 
+  color: #3D3022;
+  position: absolute;
+  box-shadow: 0 0.3vh 0.5vh black;
+}
+
+.content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lobby-section {
+    background-image: url("../assets/img/Lobby.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position: 0px;
+}

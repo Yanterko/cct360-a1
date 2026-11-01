@@ -75,3 +75,26 @@ p{
     width: 15%;
     margin: 5px;
 }
+
+
+/*Reference Footer Section*/
+footer {
+    margin-top: 200px;
+    padding: 20px 30px;
+    background-color: #faf6f0;
+    border: 2px solid #A58B73;
+    font-family: "Roboto", sans-serif;
+    color: #34170D;
+    }
+
+footer h2 {
+    color:#34170D;
+    border: 2px solid #A58B73;
+    padding: 5px;
+}
+
+footer p {
+    margin: 8px; 
+    text-align: left;
+    color:#34170D;
+}

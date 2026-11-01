@@ -14,7 +14,7 @@ body{
     height: 40vh;   
 }
 
-h1, p{
+h1, h2, p{
     font-family: "Roboto", sans-serif;
     color: rgb(252, 251, 251);
 }
@@ -52,7 +52,7 @@ p{
     border: none;
     border-radius: 10px;
     padding: 13px 20px;
-    margin-right: 40px;
+    margin-right: 40px;      
     font-size: 1.2em;
     color:aliceblue;
     font-family: "Roboto", sans-serif;
@@ -61,6 +61,29 @@ p{
 #ReturnToStart:hover{
     background-color: rgb(168, 23, 23);
 }
+
+/*Reference Footer Section*/
+footer {
+    margin-top: 300px;
+    padding: 20px 30px;
+    background-color: #faf6f0;
+    border: 2px solid #A58B73;
+    font-family: "Roboto", sans-serif;
+    color: #34170D;
+    }
+
+footer h2 {
+    color:#34170D;
+    border: 2px solid #A58B73;
+    padding: 5px;
+}
+
+footer p {
+    margin: 8px; 
+    text-align: left;
+    color:#34170D;
+}
+
 
 
 

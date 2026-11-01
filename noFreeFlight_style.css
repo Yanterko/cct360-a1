@@ -1,0 +1,67 @@
+/*Background image*/
+body{
+    background-image: url("images/drearyRain.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;    
+}
+
+
+/*Failure Div*/
+.parent{
+     display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 40vh;   
+}
+
+h1, p{
+    font-family: "Roboto", sans-serif;
+    color: rgb(252, 251, 251);
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+.instruction_div{
+    background-color: rgba(215, 49, 40, 0.8);
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+}
+
+.instruction-text {
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Return-to-StartButton Div*/
+#ReturnToStartDiv{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+#ReturnToStart{
+    background-color: rgb(219, 34, 24);
+    border: none;
+    border-radius: 10px;
+    padding: 13px 20px;
+    margin-right: 40px;
+    font-size: 1.2em;
+    color:aliceblue;
+    font-family: "Roboto", sans-serif;
+}
+
+#ReturnToStart:hover{
+    background-color: rgb(168, 23, 23);
+}
+
+
+
+

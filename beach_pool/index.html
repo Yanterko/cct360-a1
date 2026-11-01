@@ -16,8 +16,7 @@
             }
 
             #gate-img {
-                width: 100%; 
-                max-width: 40%;
+                max-width: 30%;
                 height: auto; 
                 border-radius: 8px;
                 border: 5px solid #34170D;
@@ -28,7 +27,7 @@
 
             #open-gate-btn, #pool-give-up-btn {
                 background-color: #A58B73;
-                color: #34170D;
+                color: #faf6f0;
                 border: 5px  solid #34170D; 
                 padding: 8px 16px;
                 border-radius: 8px;
@@ -86,16 +85,33 @@
                 color:#34170D;
               }
 
+              #citations2 {
+                color:#34170D;
+                font-size: 10px;
+                border: 2px solid #34170D;
+              }
+
+              .NextLevelButton {
+                background-color: #A58B73;
+                color: #faf6f0;
+                border: 5px  solid #34170D; 
+                padding: 8px 16px;
+                border-radius: 8px;
+                margin-top: 24px; 
+                cursor: pointer;
+              }
+
         </style>
     </head>
 
     <body id="pool-body">
-        <h1 id="beach-title">Beach Pool</h1>
+        <h1 id="beach-title">Pool</h1>
         
         <div id="pool-stage">
                  <!--Harmon, B. (2024, March 12). a small white dog standing infront of a gate [Photograph]. Unsplash. https://unsplash.com/photos/a-small-white-dog-standing-in-front-of-a-gate-oVBu7FAxX-o.-->
             <img id="gate-img" src="Images/blaire-harmon-oVBu7FAxX-o-unsplash.jpg" alt="Closed Pool Gate">
-            
+                        <p id="citations2"> Blair Harmon (2024, March 12) photo of white dog by pool gate on Unsplash. Roxxie Blackham (2019, March3) picture of coconut tree by water on Unsplash. Rajvir Kaur (2021, September 8) picture of duck with sunglasses on Unsplash.</p>
+
             <p id="pool-status">Hmm, I think the gate is closed. But I need to get in to find the pool souvenir! I wonder if we can find a way to open it.</p>
 
         <button type="button" id="open-gate-btn">Click to open the gate.</button>

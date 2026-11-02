@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="style/lobby.css">
     <title>Lobby</title>
 </head>
-<body>
-    <!-- The first step is to find the elevator and get to the hotel room -->
+<body id="bodyMicrogame">
         <div class="content">
             <div class="card-top">
             <p class="scoreCounter">Souvenirs: 0/4</p>
@@ -19,7 +18,12 @@
             <div class="elevatorContentSection">
             </div>
             <div class="elevatorContentSection">
-                <div id="elevatorButton"></div>
+                <div class="elevatorButtonSection">
+                    <div id="elevatorFloorScreen">67</div>
+                    <button id="elevatorButton">STOP</button>
+                </div>
+            </div>
+            <div class="elevatorContentSection">
             </div>
         </div>
         </div>

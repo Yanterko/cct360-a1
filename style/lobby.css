@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 html, body {
     height: 100%;
@@ -121,6 +122,14 @@ html, body {
   margin-top: 0.5vh;
 }
 
+#bodyMicrogame {
+  background: url("../img/ElevatorInside.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #elevatorContent {
     display: flex;
     flex-direction: row;
@@ -134,13 +143,46 @@ html, body {
 }
 
 .elevatorContentSection {
-  height: 67vh;
-  width: 67vh;
+  height: 68vh;
+  width: 80vh;
+}
+
+.elevatorButtonSection {
+  background-color: #777777CC;
+  width: 70vh;
+  min-height: 40vh;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#elevatorFloorScreen {
+  background-color: black;
+  color: red;
+  font-family: "Roboto Mono", monospace;
+  font-size: 11vh;
+  width: 35vh;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2vh;
 }
 
 #elevatorButton {
-  background-color: #777777;
-  width: 60vh;
-  height: 67vh;
+  background-color: #595959;
+  color: #faf6f0;
+  padding: 8px 16px;
+  border: 2px solid #FF0000;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+  box-shadow: 0 0.3vh 0.5vh black;
+  text-shadow: 0 0.3vh 0.5vh black;
+  width: 40vh;
 }
 

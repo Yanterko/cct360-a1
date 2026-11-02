@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#titlescreenTitle {
+  font-size: 13vh;
+  line-height: 11.5vh;
+  font-weight: 900;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  text-transform: uppercase;
+}
+
+.lbutton {
+  background-color: #A58B73;
+  color: #faf6f0;
+  padding: 8px 16px;
+  border: 2px solid #34170D;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+  box-shadow: 0 0.3vh 0.5vh black;
+  text-shadow: 0 0.3vh 0.5vh black;
+  min-width: 40vh;
+}
+
+.card {
+  margin: 7vh;
+  margin-top: 17.5vh;
+  background: #E6BD99;
+  padding: 32px;
+  border-radius: 8px;
+  backdrop-filter: blur(16px);
+  color: #3D3022;
+  box-shadow: 0 0.3vh 0.5vh black;
+  height: 23vh;
+}
+
+.card-top {
+  background: #E6BD99;
+  padding: 32px;
+  backdrop-filter: blur(16px);
+  color: #3D3022;
+  box-shadow: 0 0.3vh 0.5vh black;
+  line-height: 1vh;
+}
+
+.card-titlescreen {
+  padding: 32px;
+  font-size: 24px;
+  width: 70vh;
+  height: 40vh;
+  float: right;
+  margin-top: 12vh;
+  color: white;
+  text-shadow: 0 0.3vh 0.5vh black;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: 50vh;
+}
+
+.scoreCounter {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 180px;
+    float: right;
+    color:aliceblue;
+    font-size: 1.5em;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lobby-section {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/Lobby.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 23.65vh;
+    background-position: 0px;
+}
+
+.opening {
+  background-image: url("../img/opening.jpg");
+  height: 100%;
+}
+
+.success-section {
+  background-image: url("../img/souvenir-keycard.jpeg");
+} 
+
+.failure-section {
+  background-image: url("../img/hallway.jpeg");
+} 
+
+#toLobby {
+  width: 40vh;
+  height: 10vh;
+  font-size: 6vh;
+  font-weight: 900;
+  background-color: #A35D20;
+}
+
+#toReferences {
+  margin-top: 0.5vh;
+}
+
+#bodyMicrogame {
+  background: url("../img/ElevatorInside.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#elevatorContent {
+    display: flex;
+    flex-direction: row;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 23.65vh;
+    background-position: 0px;
+}
+
+.elevatorContentSection {
+  height: 68vh;
+  width: 70vh;
+}
+
+.elevatorButtonSection {
+  background-color: #777777CC;
+  width: 70vh;
+  min-height: 40vh;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#elevatorFloorScreen {
+  background-color: black;
+  color: red;
+  font-family: "Roboto Mono", monospace;
+  font-size: 11vh;
+  width: 35vh;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+#elevatorButton {
+  background-color: #595959;
+  color: #faf6f0;
+  padding: 8px 16px;
+  border: 2px solid #FF0000;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+  box-shadow: 0 0.3vh 0.5vh black;
+  text-shadow: 0 0.3vh 0.5vh black;
+  width: 40vh;
+}
+

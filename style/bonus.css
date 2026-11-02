@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lbutton {
+  background-color: #A58B73;
+  color: #faf6f0;
+  padding: 8px 16px;
+  border: 2px solid #34170D;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5vh;
+  box-shadow: 0 0.3vh 0.5vh black;
+  text-shadow: 0 0.3vh 0.5vh black;
+  min-width: 40vh;
+}
+
+.card {
+  margin: 7vh;
+  margin-top: 17.5vh;
+  background: #E6BD99;
+  padding: 32px;
+  border-radius: 8px;
+  backdrop-filter: blur(16px);
+  color: #3D3022;
+  box-shadow: 0 0.3vh 0.5vh black;
+  height: 23vh;
+}
+
+.content {
+  height: 50vh;
+}
+
+.scoreCounter {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 180px;
+    float: right;
+    color:aliceblue;
+    font-size: 1.5em;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lobby-section {
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 23.65vh;
+    background-position: 0px;
+}
+
+.rubberduck-section {
+  background-image: url("../img/coolestrubberduckever.png");
+}
+
+.bea-cd-section {
+  background-image: url("../img/souvenir-beacd.jpg");
+}
+
+.heli-section {
+  background-image: url("../img/TheBestHeliRideEver.jpg")
+}

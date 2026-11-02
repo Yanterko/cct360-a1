@@ -48,7 +48,7 @@ function MoveBird(event) {
         document.getElementById("LavaCakeSouvenir").src = "images/LavaCake.jpg";
         counterDisplay.innerHTML = "2";
     //Next Level Button
-        document.getElementById("NextLevelButtonLink").href = "hotel_room.html"
+        document.getElementById("NextLevelButtonLink").href = "hotel_room/hotel_room.html"
     
     }
 

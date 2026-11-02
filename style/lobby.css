@@ -13,10 +13,15 @@ html, body {
 }
 
 #titlescreenTitle {
-  font-size: 64px;
+  font-size: 13vh;
+  line-height: 11.5vh;
+  font-weight: 900;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  text-transform: uppercase;
 }
 
-#lobbyToMicrogame {
+.lbutton {
   background-color: #A58B73;
   color: #faf6f0;
   padding: 8px 16px;
@@ -24,6 +29,10 @@ html, body {
   border-radius: 8px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  font-size: 2vh;
+  box-shadow: 0 0.3vh 0.5vh black;
+  text-shadow: 0 0.3vh 0.5vh black;
+  min-width: 40vh;
 }
 
 .card {
@@ -45,11 +54,27 @@ html, body {
   box-shadow: 0 0.3vh 0.5vh black;
 }
 
+.card-titlescreen {
+  padding: 32px;
+  font-size: 24px;
+  width: 70vh;
+  height: 40vh;
+  float: right;
+  margin-top: 12vh;
+  color: white;
+  text-shadow: 0 0.3vh 0.5vh black;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+}
+
 .content {
   height: 50vh;
 }
 
-.scoreCounter{
+.scoreCounter {
     margin-top: 10px;
     margin-right: 10px;
     width: 180px;
@@ -76,6 +101,19 @@ html, body {
 
 .opening {
   background-image: url("../img/opening.jpg");
+  height: 100%;
+}
+
+#toLobby {
+  width: 40vh;
+  height: 10vh;
+  font-size: 6vh;
+  font-weight: 900;
+  background-color: #A35D20;
+}
+
+#toReferences {
+  margin-top: 0.5vh;
 }
 
 #elevatorContent {

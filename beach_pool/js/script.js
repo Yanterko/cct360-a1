@@ -21,9 +21,9 @@ openGateBtn.onclick = function() {
 };
 
 gateImg.onclick = function(event) {
-    if (gateOpen === true && souvenirFound === false) {
-        let clickX = event.offsetX;
+    let clickX = event.offsetX;
         let clickY = event.offsetY;
+    if (gateOpen === true && souvenirFound === false) {
 
         if (clickX >= 100 && clickX <=500 && clickY >= 200 && clickY <= 550) {
             souvenirFound = true;
@@ -42,8 +42,15 @@ gateImg.onclick = function(event) {
             poolStatus.innerHTML = "Nothing here...keep searching around the pool!";
         }
 
-    } else if (souvenirfound == true) {
-        poolStatus.innerHTML = "You already found the souvenir here!";
+    } else if (souvenirFound === true) {
+        if (clickX >= 132 && clickX <=301 && clickY >= 213 && clickY <= 341) {
+            alert("Hey! I'm the cool rubber duck, and I think you're pretty cool. Please join us for a cool mini-party in my hotel room!");
+            window.location.href = "../bonus-1.html";
+        }
+        else {
+            poolStatus.innerHTML = "You already found the souvenir here!";
+        }
+        
     } else {
         poolStatus.innerHTML = "Hmm, I think the gate is closed. We need to find a way to open it first.";
 

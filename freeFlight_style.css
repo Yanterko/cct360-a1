@@ -28,9 +28,10 @@ p{
 }
 
 .instruction_div{
-    background-color: rgb(240, 248, 255, 0.8);
-    border-radius: 10px;
-    border: none;
+background-color: #faf6f0;
+    border: 5px solid;
+    border-color:white;
+    border-radius: 20px;
     margin: 20px;
 }
 
@@ -49,13 +50,14 @@ p{
 
 #ReturnToStart{
     background-color: rgb(78, 181, 65);
-    border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 10px 20px;
     margin-right: 40px;
-    font-size: 1em;
-    color:aliceblue;
+    font-size: 1.2em;
+    font-weight: 500;
     font-family: "Roboto", sans-serif;
+    color: white;
+    border: 3px solid white;
 }
 
 #ReturnToStart:hover{

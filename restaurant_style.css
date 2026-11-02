@@ -2,6 +2,7 @@ body{
     background-image: url("images/restaurant.jpg");
     background-repeat: no-repeat;
     background-size: cover;      
+    text-align: center;
 }
 
 /*Image Area*/
@@ -13,17 +14,17 @@ body{
 }
 
 /*Counter*/
-.scoreCounter{
-
-    position: absolute;
-    top: 10px;
-    right: 10px;
+#souvenir-counter-box2{
     font-family: "Roboto", sans-serif;
-    color:aliceblue;
-    font-size: 1.5em;
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
+    position: fixed; 
+    top: 16px; 
+    right: 16px; 
+    border: 3px solid #34170D;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #34170D;
+    background-color: #faf6f0;
 }
 
 
@@ -39,7 +40,7 @@ body{
 
 h1, p{
     font-family: "Roboto", sans-serif;
-    color:aliceblue;
+    color: #34170D;
 }
 
 h1{
@@ -51,9 +52,10 @@ p{
 }
 
 .instruction_div{
-    background-color:rgba(164, 213, 176, 0.8);
-    border-radius: 10px;
-    border: none;
+    background-color: #faf6f0;
+    border: 5px solid;
+    border-color:#34170D;
+    border-radius: 20px;
     margin: 20px;
 }
 
@@ -62,10 +64,15 @@ p{
     margin: 10px;
 }
 
-/*New Advice Area*/
-    #NewAdvice, #SouvenirText {
-        color: red;
-    }
+/*NotYetSouvenir*/
+ #NotYetSouvenir{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+ }    
+
 
 /*Final Souvenir*/
     #LavaCakeSouvenir{
@@ -84,18 +91,21 @@ p{
 }
 
 .NextLevelButton{
-    background-color: rgb(87, 87, 87);
-    border: none;
-    border-radius: 10px;
+    background-color: #faf6f0;
+    border-radius: 8px;
     padding: 10px 20px;
     margin-right: 40px;
-    font-size: 1em;
-    color:aliceblue;
+    font-size: 1.2em;
+    font-weight: 500;
     font-family: "Roboto", sans-serif;
+    color: #34170D;
+    border: 3px solid #34170D;          
+                
+
 }
 
 .NextLevelButton:hover{
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(140, 140, 140);
 }
 
 /*Reference Footer Section*/

@@ -16,7 +16,7 @@ body{
 
 h1, h2, p{
     font-family: "Roboto", sans-serif;
-    color: rgb(252, 251, 251);
+    color: #34170D;
 }
 
 h1{
@@ -28,10 +28,12 @@ p{
 }
 
 .instruction_div{
-    background-color: rgba(215, 49, 40, 0.8);
+    background-color: rgb(252, 152, 147);
+    border: 5px solid;
+    border-color:#34170D;
     border-radius: 10px;
-    border: none;
     margin: 20px;
+    
 }
 
 .instruction-text {
@@ -41,25 +43,27 @@ p{
 
 /*Return-to-StartButton Div*/
 #ReturnToStartDiv{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 20vh;
 }
 
 #ReturnToStart{
-    background-color: rgb(219, 34, 24);
-    border: none;
-    border-radius: 10px;
-    padding: 13px 20px;
-    margin-right: 40px;      
+    background-color: #fe9090;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 40px;
     font-size: 1.2em;
-    color:aliceblue;
+    font-weight: 500;
     font-family: "Roboto", sans-serif;
+    color: #34170D;
+    border: 3px solid #34170D;
+
 }
 
 #ReturnToStart:hover{
-    background-color: rgb(168, 23, 23);
+    background-color: rgb(212, 64, 64);
 }
 
 /*Reference Footer Section*/

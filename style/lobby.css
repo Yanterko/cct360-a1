@@ -29,7 +29,7 @@ html, body {
   border-radius: 8px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  font-size: 2vh;
+  font-size: 2.5vh;
   box-shadow: 0 0.3vh 0.5vh black;
   text-shadow: 0 0.3vh 0.5vh black;
   min-width: 40vh;
@@ -37,13 +37,14 @@ html, body {
 
 .card {
   margin: 7vh;
-  margin-top: 18vh;
+  margin-top: 17.5vh;
   background: #E6BD99;
   padding: 32px;
   border-radius: 8px;
   backdrop-filter: blur(16px);
   color: #3D3022;
   box-shadow: 0 0.3vh 0.5vh black;
+  height: 23vh;
 }
 
 .card-top {
@@ -103,6 +104,10 @@ html, body {
   background-image: url("../img/opening.jpg");
   height: 100%;
 }
+
+.success-section {
+  background-image: url("../img/souvenir-keycard.jpeg");
+} 
 
 #toLobby {
   width: 40vh;

@@ -6,10 +6,10 @@ body{
 
 /*Image Area*/
 #birdSouvenir{
-    width: 40px;
+    width: 250px;
     position:absolute;
-    bottom: 9%;
-    left: 38%;
+    top: 40%;
+    left: 60%;
 }
 
 /*Counter*/
@@ -30,7 +30,8 @@ body{
 /*Instructions Area*/
 
 .parent{
-     display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center; 
     align-items: center;     
     height: 70vh;   
@@ -61,6 +62,19 @@ p{
     margin: 10px;
 }
 
+/*New Advice Area*/
+    #NewAdvice, #SouvenirText {
+        color: red;
+    }
+
+/*Final Souvenir*/
+    #LavaCakeSouvenir{
+        width: 300px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 /*"Next Level" Button Area*/
 

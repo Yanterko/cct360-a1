@@ -90,7 +90,7 @@ p{
     justify-content: flex-end;
 }
 
-.NextLevelButton{
+#NextLevelButton{
     background-color: #faf6f0;
     border-radius: 8px;
     padding: 10px 20px;
@@ -99,10 +99,14 @@ p{
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     color: #34170D;
-    border: 3px solid #34170D;          
-                
-
+    border: 3px solid #34170D;                       
 }
+
+#NextLevelButton a{
+    text-decoration: none;
+    color: #34170D;
+}
+
 
 .NextLevelButton:hover{
     background-color: rgb(140, 140, 140);

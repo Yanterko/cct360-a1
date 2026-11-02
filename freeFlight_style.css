@@ -28,9 +28,8 @@ p{
 }
 
 .instruction_div{
-background-color: #faf6f0;
-    border: 5px solid;
-    border-color:white;
+    background-color: #faf6f0;
+    border: 5px solid #34170D;
     border-radius: 20px;
     margin: 20px;
 }
@@ -56,8 +55,12 @@ background-color: #faf6f0;
     font-size: 1.2em;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
-    color: white;
     border: 3px solid white;
+}
+
+#ReturnToStart a{
+    text-decoration: none;
+    color: white;
 }
 
 #ReturnToStart:hover{

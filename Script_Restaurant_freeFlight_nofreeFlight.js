@@ -42,10 +42,9 @@ function MoveBird(event) {
         document.getElementById("NewAdvice").innerHTML = "You did it! In return, we'll give you a souvenir: a Lava Cake! Proceed to the next room."
         document.getElementById("NotYetSouvenir").id = "LavaCakeSouvenir";
         document.getElementById("LavaCakeSouvenir").src = "images/LavaCake.jpg";
+    //Next Level Button
+        document.getElementById("NextLevelButtonLink").href = "hotel_room.html"
+    
     }
 
 }
-
-// FreeFlight Page
-
-// Failure Page

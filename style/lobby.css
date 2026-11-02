@@ -54,6 +54,7 @@ html, body {
   backdrop-filter: blur(16px);
   color: #3D3022;
   box-shadow: 0 0.3vh 0.5vh black;
+  line-height: 1vh;
 }
 
 .card-titlescreen {
@@ -110,6 +111,10 @@ html, body {
   background-image: url("../img/souvenir-keycard.jpeg");
 } 
 
+.failure-section {
+  background-image: url("../img/hallway.jpeg");
+} 
+
 #toLobby {
   width: 40vh;
   height: 10vh;
@@ -144,7 +149,7 @@ html, body {
 
 .elevatorContentSection {
   height: 68vh;
-  width: 80vh;
+  width: 70vh;
 }
 
 .elevatorButtonSection {

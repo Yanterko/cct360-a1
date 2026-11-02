@@ -10,24 +10,23 @@
 <body id="bodyMicrogame">
         <div class="content">
             <div class="card-top">
+            <h1 id="gameInstruction">Stop the elevator on the ?th floor!</h1>
+            <p><b>Missed your floor?</b> Don't worry, the elevator will come back... eventually.</p>
+            </div>
             <p class="scoreCounter">Souvenirs: 0/4</p>
-            <h1>Stop the elevator on the ?th floor!</h1>
-        </div>
         <!-- TODO: Elevator quick time event -->
         <div class="content" id="elevatorContent">
             <div class="elevatorContentSection">
             </div>
             <div class="elevatorContentSection">
                 <div class="elevatorButtonSection">
-                    <div id="elevatorFloorScreen">67</div>
-                    <button id="elevatorButton">STOP</button>
+                    <div id="elevatorFloorScreen">L ↑</div>
+                    <button id="elevatorButton">STOP!</button>
                 </div>
             </div>
-            <div class="elevatorContentSection">
-            </div>
         </div>
         </div>
-    <script src="scripts/lobby.js"></script>
+    <script src="scripts/lobby-microgame.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

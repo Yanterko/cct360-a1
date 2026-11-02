@@ -45,7 +45,7 @@ html, body {
   backdrop-filter: blur(16px);
   color: #3D3022;
   box-shadow: 0 0.3vh 0.5vh black;
-  height: 23vh;
+  height: 33vh;
 }
 
 .card-top {

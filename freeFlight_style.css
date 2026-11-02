@@ -1,0 +1,105 @@
+/*Background image*/
+body{
+    background-image: url("images/fireworksFreeFlight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+
+/*Coungratulations div*/
+.parent{
+     display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 40vh;   
+}
+
+h1, p{
+    font-family: "Roboto", sans-serif;
+    color: rgb(35, 16, 128);
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+.instruction_div{
+    background-color: #faf6f0;
+    border: 5px solid #34170D;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.instruction-text {
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Return-to-StartButton Div*/
+#ReturnToStartDiv{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+#ReturnToStart{
+    background-color: rgb(78, 181, 65);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 40px;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    border: 3px solid white;
+}
+
+#ReturnToStart a{
+    text-decoration: none;
+    color: white;
+}
+
+#ReturnToStart:hover{
+    background-color: rgb(46, 142, 72);
+}
+
+
+/*Plane Image*/
+#planeDiv{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+#planeImage{
+    width: 15%;
+    margin: 5px;
+}
+
+
+/*Reference Footer Section*/
+footer {
+    margin-top: 200px;
+    padding: 20px 30px;
+    background-color: #faf6f0;
+    border: 2px solid #A58B73;
+    font-family: "Roboto", sans-serif;
+    color: #34170D;
+    }
+
+footer h2 {
+    color:#34170D;
+    border: 2px solid #A58B73;
+    padding: 5px;
+}
+
+footer p {
+    margin: 8px; 
+    text-align: left;
+    color:#34170D;
+}

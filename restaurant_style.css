@@ -1,0 +1,135 @@
+body{
+    background-image: url("images/restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;      
+    text-align: center;
+}
+
+/*Image Area*/
+#birdSouvenir{
+    width: 250px;
+    position:absolute;
+    top: 40%;
+    left: 60%;
+}
+
+/*Counter*/
+#souvenir-counter-box2{
+    font-family: "Roboto", sans-serif;
+    position: fixed; 
+    top: 16px; 
+    right: 16px; 
+    border: 3px solid #34170D;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #34170D;
+    background-color: #faf6f0;
+}
+
+
+/*Instructions Area*/
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    height: 70vh;   
+}
+
+h1, p{
+    font-family: "Roboto", sans-serif;
+    color: #34170D;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+.instruction_div{
+    background-color: #faf6f0;
+    border: 5px solid;
+    border-color:#34170D;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.instruction-text {
+    padding: 10px;
+    margin: 10px;
+}
+
+/*NotYetSouvenir*/
+ #NotYetSouvenir{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+ }    
+
+
+/*Final Souvenir*/
+    #LavaCakeSouvenir{
+        width: 300px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*"Next Level" Button Area*/
+
+.NextLevel_Div{
+     display: flex;
+    justify-content: flex-end;
+}
+
+#NextLevelButton{
+    background-color: #faf6f0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 40px;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #34170D;
+    border: 3px solid #34170D;                       
+}
+
+#NextLevelButton a{
+    text-decoration: none;
+    color: #34170D;
+}
+
+
+.NextLevelButton:hover{
+    background-color: rgb(140, 140, 140);
+}
+
+/*Reference Footer Section*/
+footer {
+    margin-top: 200px;
+    padding: 20px 30px;
+    background-color: #faf6f0;
+    border: 2px solid #A58B73;
+    font-family: "Roboto", sans-serif;
+    color: #34170D;
+    }
+
+footer h2 {
+    color:#34170D;
+    border: 2px solid #A58B73;
+    padding: 5px;
+}
+
+footer p {
+    margin: 8px; 
+    text-align: left;
+    color:#34170D;
+}

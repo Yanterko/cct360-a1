@@ -69,7 +69,7 @@
 
                       //Jordan, B. (2020, July 5). the new york times square [Photograph]. Unsplash. https://unsplash.com/photos/the-new-york-times-square-oO7txJP2hls.  
                       suitcaseImg.src = "Images/brettjordanunsplash.jpg";
-                      counterDisplay.innerHTML = "2"
+                      counterDisplay.innerHTML = "3"
 
                       alert("Great you collected it! Proceed to the next area.");
                   }

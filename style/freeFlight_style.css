@@ -1,6 +1,6 @@
 /*Background image*/
 body{
-    background-image: url("images/fireworksFreeFlight.jpg");
+    background-image: url("../images/fireworksFreeFlight.jpg");
     background-repeat: no-repeat;
     background-size: cover;      
 }

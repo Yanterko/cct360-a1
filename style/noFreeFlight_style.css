@@ -1,6 +1,6 @@
 /*Background image*/
 body{
-    background-image: url("images/drearyRain.jpg");
+    background-image: url("../images/drearyRain.jpg");
     background-size: cover;  
     background-repeat: no-repeat;    
 }

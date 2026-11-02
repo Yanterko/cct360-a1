@@ -12,12 +12,30 @@ html, body {
     box-sizing: border-box;
 }
 
+#lobbyToMicrogame {
+  background-color: #A58B73;
+  color: #faf6f0;
+  padding: 8px 16px;
+  border: 2px solid #34170D;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Google Sans", sans-serif;
+}
+
 .card {
   margin: 7vh;
-  margin-top: 20vh;
+  margin-top: 18vh;
   background: #E6BD99;
   padding: 32px;
   border-radius: 8px;
+  backdrop-filter: blur(16px);
+  color: #3D3022;
+  box-shadow: 0 0.3vh 0.5vh black;
+}
+
+.card-top {
+  background: #E6BD99;
+  padding: 32px;
   backdrop-filter: blur(16px);
   color: #3D3022;
   box-shadow: 0 0.3vh 0.5vh black;
@@ -27,7 +45,6 @@ html, body {
   height: 50vh;
 }
 
-/*Counter*/
 .scoreCounter{
     margin-top: 10px;
     margin-right: 10px;
@@ -49,6 +66,30 @@ html, body {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    min-height: 23.6vh;
+    min-height: 23.65vh;
     background-position: 0px;
 }
+
+#elevatorContent {
+    display: flex;
+    flex-direction: row;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 23.65vh;
+    background-position: 0px;
+}
+
+.elevatorContentSection {
+  height: 67vh;
+  width: 67vh;
+}
+
+#elevatorButton {
+  background-color: #777777;
+  width: 60vh;
+  height: 67vh;
+}
+
